@@ -1,0 +1,17 @@
+{
+  "name": "unified-order-model",
+  "version": "1.0.0",
+  "description": "4つの受注システムでバラバラだった「注文」を、TypeScript の型で1つにそろえる（ダミーデータのポートフォリオ）",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.0"
+  }
+}
