@@ -8,7 +8,7 @@
 **4つの受注システムでバラバラだった「注文」を、TypeScript の型で1つにそろえる。**
 *Expressing one order model, unified from four in-house order systems, as TypeScript types guarded by tests.*
 
-> 食品ギフトの会社で、チャネルごとに作った4つの受注システムを1つの注文モデルに統合しました（本番は PHP + MySQL で稼働中）。このリポジトリは、そのときの**論理設計を TypeScript の型とテストで表し直したもの**です。実際のコードではなく、データはすべて架空です。
+> 食品・ホスピタリティ系の会社で、チャネルごとに作った4つの受注システムを1つの注文モデルに統合しました（本番は PHP + MySQL で稼働中）。このリポジトリは、そのときの**論理設計を TypeScript の型とテストで表し直したもの**です。実際のコードではなく、データはすべて架空です。
 >
 > 設計の経緯は Zenn の記事に書いています: [「注文」という言葉が、4つのシステムで4つの意味を持っていた](https://zenn.dev/takutoshuto/articles/e12ef58cfe8f18)
 
